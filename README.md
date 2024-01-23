@@ -8,7 +8,7 @@
 
 Swift framework to add a toolbar above the keyboard
 ## Preview
-No preview available for now
+Preview broken
 
 <h2> How to install </h2>
 
