@@ -8,7 +8,7 @@
 
 Swift framework to add a toolbar above the keyboard
 ## Preview
-![Preview](http://www.metautbenjamin.com:3000/file/image/toolboard1.png)
+No preview available for now
 
 <h2> How to install </h2>
 
