@@ -28,7 +28,7 @@ then, you can instantiate the `ToolBoard`
 
 Use exemple :
 
-```
+```swift
 import UIKit
 import SwiftToolBoard
 
@@ -36,7 +36,7 @@ class ViewController : UIViewController {
   
   @IBOutlet weak var myTextBox : UITextField!
   
-  overrid func viewDidLoad() {
+  override func viewDidLoad() {
     super.viewDidLoad()
     let tB = ToolBoard()
     tB.changeItemNumber(number: 20)
@@ -49,7 +49,7 @@ class ViewController : UIViewController {
 ```
 
 There is 3 constructor :
-```
+```swift
 //Instantiate without item and with all default param
 let tB = ToolBoard()
 
@@ -67,7 +67,7 @@ You can use many function to change the toolboard you can create whatever you wa
 
 There is two delegate method to implement : ( Exemple )
 before you need to tell that the controller is the delegate
-```
+```swift
 override func viewDidLoad() {
 //viewDidLoad code
 let tB = ToolBoard()
@@ -78,7 +78,7 @@ tB.delegate = self
 ```
 
 when its done you need to extend your controller like this :
-```
+```swift
 extension ViewController:  ToolBoardDelegate {
   
   func toolBoard(_ toolBoard: ToolBoard, cellForItem cell: UICollectionViewCell, indexPath : IndexPath) {
