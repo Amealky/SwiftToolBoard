@@ -1,12 +1,11 @@
-<h1 align="center"> SwiftToolBoard :iphone:</h1>
+<h1 align="center">:iphone: SwiftToolBoard :iphone:</h1>
 <p align="center">
-<img src="https://travis-ci.org/Happeal/SwiftToolBoard.svg?branch=master" />
-<img src="https://img.shields.io/badge/platform-iOS-blue.svg" />
-<img src="https://img.shields.io/badge/language-Swift-orange.svg" />
-<img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" />
+  <img src="https://img.shields.io/badge/IOS-%204--2--1?style=for-the-badge&label=platform&color=blue">
+  <img src="https://img.shields.io/badge/Swift-%204--2--1?style=for-the-badge&label=language&color=orange">
 </p>
 
 Swift framework to add a toolbar above the keyboard
+
 ## Preview
 Preview broken
 
